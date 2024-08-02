@@ -1,8 +1,30 @@
+@font-face {
+ font-family: "Poppins";
+    src: local("Poppins Regular.ttf"),
+    local("Poppins-Regular");
+}
+
 body {
     background-color: #F1F1EB;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 5% 0 5%;
 }
 
 ul.header_list li {
     display: inline;
     list-style-type: none;
+}
+
+.header_list li{
+    padding: 1em;
+
+}
+
+main {
+    position: absolute;
+    margin-top: 5%;
+
 }
