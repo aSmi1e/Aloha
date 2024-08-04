@@ -3,6 +3,7 @@ body {
     font-weight: 400;
     font-style: normal;
     background-color: #F1F1EB;
+    color: #4B321D;
 }
 
 header {
@@ -23,4 +24,13 @@ ul.header_list li {
 main {
     position: absolute;
     margin-top: 5%;
+}
+
+.first {
+    margin-left: 20px;
+    font-size: 80px;
+}
+
+.qwe {
+    margin-left: .7em;
 }
