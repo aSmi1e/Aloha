@@ -1,12 +1,10 @@
-@font-face {
- font-family: "Poppins";
-    src: local("Poppins Regular.ttf"),
-    local("Poppins-Regular");
-}
-
 body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     background-color: #F1F1EB;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -20,11 +18,9 @@ ul.header_list li {
 
 .header_list li{
     padding: 1em;
-
 }
 
 main {
     position: absolute;
     margin-top: 5%;
-
 }
