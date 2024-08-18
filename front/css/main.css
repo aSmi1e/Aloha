@@ -28,23 +28,20 @@ main {
     margin-top: 5%;
 }
 
-.main_pic {
-    border-radius: 15px;
-}
-
 h1 {
     position: relative;
     font-weight: 400;
     font-size: 80px;
     max-width: 16em;
-    left: 25%;
+    left: 16%;
 }
 
 .main_pic {
     display: flex;
     position: relative;
     margin-top: 10%;
-    left: 25%;
+    left: 16%;
+    border-radius: 15px;
 }
 
 h2 {
@@ -52,5 +49,19 @@ h2 {
     font-weight: 400;
     font-size: 80px;
     max-width: 18em;
-    left: 25%;
+    left: 16%;
+}
+
+.see_my_work {
+    appearance: none;
+    border-radius: 3px;
+    height: 50px;
+    background: none;
+    padding: 8px 16px;
+    color: #4B321D;
+    border-color: #4B321D;
+    border-style: solid;
+    font-size: 20px;
+    position: relative;
+    left: 16%;
 }
