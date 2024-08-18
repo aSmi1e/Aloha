@@ -9,7 +9,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    margin: 2% 28.5% 0 5%;
+    margin: 2% 13% 0 17%;
 }
 
 ul.header_list li {
@@ -28,16 +28,29 @@ main {
     margin-top: 5%;
 }
 
-.first {
-    margin-left: 5.5%;
-    font-size: 80px;
-}
-
 .main_pic {
     border-radius: 15px;
 }
 
-.qwe {
+h1 {
+    position: relative;
+    font-weight: 400;
+    font-size: 80px;
     max-width: 16em;
-    margin-left: .7em;
+    left: 25%;
+}
+
+.main_pic {
+    display: flex;
+    position: relative;
+    margin-top: 10%;
+    left: 25%;
+}
+
+h2 {
+    position: relative;
+    font-weight: 400;
+    font-size: 80px;
+    max-width: 18em;
+    left: 25%;
 }
