@@ -7,9 +7,11 @@ body {
 }
 
 header {
-    border: solid;
+    /*border: solid;*/
     display: flex;
+    position: sticky;
     justify-content: space-between;
+
     margin: 2% 13% 0 17%;
 }
 
@@ -24,29 +26,29 @@ ul.header_list li {
 }
 
 main {
-    border: solid;
+    /*border: solid;*/
     margin-top: 5%;
     width: 100%;
 }
 
-.first_block {
+/*.first_block {
     position: relative;
     border-style: solid;
-}
+}*/
 
 h1 {
     position: relative;
     font-weight: 400;
     font-size: 80px;
     max-width: 16em;
-    left: 16%;
+    left: 13%;
 }
 
 .main_pic {
     display: flex;
     position: relative;
     margin-top: 10%;
-    left: 16%;
+    left: 13%;
     border-radius: 15px;
 }
 
