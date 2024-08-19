@@ -6,6 +6,8 @@ body {
     color: #4B321D;
 }
 
+/*header*/
+
 header {
     display: flex;
     position: sticky;
@@ -23,6 +25,8 @@ ul.header_list li {
     padding: 1em;
 }
 
+/*main + repeated elements*/
+
 main {
     margin-top: 5%;
     width: 100%;
@@ -33,17 +37,18 @@ img {
 }
 
 button {
-    appearance: none;
+    position: relative;
     border-radius: 3px;
     height: 50px;
     background: none;
-    padding: 8px 16px;
+    padding: 12px 12px;
     color: #4B321D;
     border-color: #4B321D;
     border-style: solid;
     font-size: 20px;
-    position: relative;
 }
+
+/*first section*/
 
 h1 {
     position: relative;
@@ -63,13 +68,19 @@ h1 {
 }
 
 .second_block h2 {
+    position: relative;
     display: flex;
     font-weight: 400;
     font-size: 80px;
     max-width: 18em;
+    left: 13%;
 }
 
 .see_my_work {
+    display: flex;
     top: 5%;
-    left: 16%;
+    left: 13%;
 }
+
+/*second section*/
+
