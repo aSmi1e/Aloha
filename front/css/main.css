@@ -48,6 +48,14 @@ button {
     font-size: 20px;
 }
 
+h3 {
+    display: block;
+    position: relative;
+    font-weight: 400;
+    font-size: 38px;
+    max-width: 17em;
+}
+
 /*first section*/
 
 h1 {
@@ -67,6 +75,8 @@ h1 {
     width: 75.5%;
 }
 
+/*second section*/
+
 .second_block h2 {
     position: relative;
     display: flex;
@@ -78,9 +88,23 @@ h1 {
 
 .see_my_work {
     display: flex;
-    top: 5%;
     left: 13%;
 }
 
-/*second section*/
+/*third section*/
 
+.third_block {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.second_pic {
+    display: flex;
+    position: relative;
+    left: 13%;
+}
+
+.third_block h3 {
+    left: 50vw;
+    bottom: 65vh;
+}
