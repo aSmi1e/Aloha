@@ -119,3 +119,11 @@ h1 {
 
 /*fourth section*/
 
+.third_pic {
+    display: flex;
+    position: relative;
+    left: 52%;
+    margin-top: -8%;
+    height: auto;
+    width: 32.5%;
+}
