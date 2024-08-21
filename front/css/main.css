@@ -123,7 +123,7 @@ h1 {
     display: flex;
     position: relative;
     left: 52%;
-    margin-top: -8%;
+    /*margin-top: -8%;*/
     height: auto;
     width: 32.5%;
 }
