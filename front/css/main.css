@@ -6,6 +6,10 @@ body {
     color: #4B321D;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /*header*/
 
 header {
@@ -18,7 +22,6 @@ header {
 ul.header_list li {
     font-size: 18px;
     display: inline;
-    list-style-type: none;
 }
 
 .header_list li{
@@ -183,3 +186,24 @@ h1 {
 }
 
 /*footer*/
+
+footer {
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    left: 13%;
+    font-weight: 400;
+}
+
+.left_side_content {
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.links {
+    display: flex;
+    position: absolute;
+    right: 25%;
+    bottom: -60%;
+    line-height: 28px;
+}
