@@ -128,7 +128,7 @@ h1 {
     width: 32.5%;
 }
 
-.fourth_block h3{
+.fourth_block h3 {
     left: 13%;
     bottom: 60vh;
 }
@@ -139,3 +139,31 @@ h1 {
 }
 
 /*fifth section*/
+
+.fifth_block {
+    position: relative;
+    margin-top: -10%;
+    background: #4B321D;
+    color: #F1F1EB;
+    border-radius: 15px;
+    width: 1400px;
+    margin-left: 10%;
+    height: 476px;
+}
+
+.fifth_block h2 {
+    position: relative;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    top: 15%;
+    left: 5%;
+}
+
+.fifth_block p {
+    position: relative;
+    font-weight: 400;
+    font-size: 26px;
+    top: 10%;
+    left: 5%;
+}
