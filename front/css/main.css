@@ -167,3 +167,19 @@ h1 {
     top: 10%;
     left: 5%;
 }
+
+/*sixth section*/
+
+.sixth_block {
+    position: relative;
+    left: 13%;
+}
+
+.sixth_block h2 {
+    position: relative;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+}
+
+/*footer*/
